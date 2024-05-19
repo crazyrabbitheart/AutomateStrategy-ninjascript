@@ -1,0 +1,39 @@
+Strategy Objectives
+
+-Ability to choose start and end time for strategy
+
+-Ability to choose multiple fibonacci levels
+
+-Ability to disable strategy after 1 successful trade for the day
+-Ability to disable strategy after a certain number of failed trades for the day
+
+
+The strategy will use the previous days Fibonacci Retracement and will either go Long or Short depending on what level is hit first.
+
+
+
+
+Conditions
+Fibonacci Retracement will be drawn from High to Low each day.
+90% and above for Long
+10% and below for Short
+
+
+
+For Long: Price must close beneath 90% and then go long when price touches 90% level
+
+For Short: Price must close above 10% and go short when price touches 10% level
+
+Long:
+First Position 90% Fibonacci with ATM SL & TP settings
+Second Position 92.5% Fibonacci with ATM SL & TP settings
+Third Position 95% Fibonacci with ATM SL & TP settings
+Fourth Position 97.5% Fibonacci with ATM SL & TP settings
+Fifth Position 100% Fibonacci with ATM SL & TP settings
+
+Short
+First Position 10% Fibonacci with ATM SL & TP settings
+Second Position 7.5% Fibonacci with ATM SL & TP settings
+Third Position 5% Fibonacci with ATM SL & TP settings
+Fourth Position 2.5% Fibonacci with ATM SL & TP settings
+Fifth Position 0% Fibonacci with ATM SL & TP settings
